@@ -287,7 +287,7 @@
             
             <!-- Header Image -->
             <div class="h-40 relative flex-shrink-0">
-                <img id="modal-image" src="" alt="City" class="w-full h-full object-cover">
+                <img id="modal-portada" src="" alt="City" class="w-full h-full object-cover">
                 <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
                 <button onclick="closeModal()" class="absolute top-3 right-3 bg-black/30 hover:bg-black/50 text-white rounded-full p-2 transition backdrop-blur-md">
                     <i data-lucide="x" class="w-5 h-5"></i>
@@ -568,7 +568,7 @@
 
             document.getElementById('modal-city').innerText = route.city;
             document.getElementById('modal-region').innerText = route.region;
-            document.getElementById('modal-image').src = route.image;
+            document.getElementById('modal-portada').src = route.portada;
             document.getElementById('modal-duration').innerText = route.duration;
             
             // Languages
@@ -591,9 +591,8 @@
             const mapContainer = document.getElementById('modal-map-wrapper');
             // Normalize city name: remove accents, lower case, replace spaces if any
             const normalizedCity = route.city.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/\s+/g, '_');
-            const imageName = `mapa_${normalizedCity}.webp`;
-            
-            mapContainer.innerHTML = `<img src="${imageName}" alt="Mapa de ${route.city}" class="w-full h-full object-cover">`;
+           
+            mapContainer.innerHTML = `<img src="${route.mapa}" alt="Mapa de ${route.city}" class="w-full h-full object-cover">`;
 
             // Render Stops
             localizedStops.forEach((stop, index) => {
@@ -657,7 +656,7 @@
 
                 card.innerHTML = `
                     <div class="relative h-44 overflow-hidden">
-                        <img src="${route.image}" alt="${route.city}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+                        <img src="${route.portada}" alt="${route.city}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
                         <div class="absolute inset-0 bg-gradient-to-t from-histur-dark/90 to-transparent"></div>
                         <div class="absolute bottom-3 left-4 text-white">
                             <h3 class="text-xl font-bold serif">${route.city}</h3>
