@@ -1,0 +1,162 @@
+[
+  {
+    "id": "madrid",
+    "city": "Madrid",
+    "region": "Madrid",
+    "duration": "3h",
+    "languages": ["es", "en", "de", "fr", "pt", "it"],
+    "image": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?q=80&w=2070",
+    "description": {
+      "es": "Disfruta de un paseo por el centro de Madrid en un recorrido de unas 3 horas, aprendiendo sobre cada punto y su historia. Daremos un salto al pasado con un mapa de 1656!",
+      "en": "Enjoy a walk through the center of Madrid on a 3-hour tour, learning about each point and its history. Take a leap into the past with a map from 1656!",
+      "de": "Genießen Sie einen Spaziergang durch das Zentrum von Madrid auf einer ca. 3-stündigen Tour und lernen Sie jeden Punkt und seine Geschichte kennen. Wir springen in die Vergangenheit mit einer Karte von 1656!",
+      "fr": "Profitez d'une promenade dans le centre de Madrid lors d'une visite d'environ 3 heures, en apprenant sur chaque point et son histoire. Nous ferons un saut dans le passé avec une carte de 1656 !",
+      "pt": "Desfrute de um passeio pelo centro de Madrid num percurso de cerca de 3 horas, aprendendo sobre cada ponto e a sua história. Daremos um salto ao passado com um mapa de 1656!",
+      "it": "Goditi una passeggiata nel centro di Madrid in un tour di circa 3 ore, imparando su ogni punto e la sua storia. Faremo un salto nel passato con una mappa del 1656!"
+    },
+    "stops": {
+      "es": ["*Puerta del Sol", "Plaza mayor", "Plaza de la Villa", "*Catedral de la Almudena", "*Palacio Real", "Monasterio de las Descalzas", "Paseo por la Gran Vía", "Calle Alcalá", "Plaza de Cibeles", "*Puerta de Alcalá", "Parque del Retiro"],
+      "en": ["*Puerta del Sol", "Plaza Mayor", "Plaza de la Villa", "*Almudena Cathedral", "*Royal Palace", "Descalzas Reales Monastery", "Gran Vía Walk", "Calle Alcalá", "Cibeles Square", "*Puerta de Alcalá", "Retiro Park"],
+      "de": ["*Puerta del Sol", "Plaza Mayor", "Plaza de la Villa", "*Almudena-Kathedrale", "*Königlicher Palast", "Kloster der Descalzas", "Spaziergang Gran Vía", "Calle Alcalá", "Cibeles-Platz", "*Puerta de Alcalá", "Retiro-Park"],
+      "fr": ["*Puerta del Sol", "Plaza Mayor", "Plaza de la Villa", "*Cathédrale de l'Almudena", "*Palais Royal", "Monastère des Descalzas", "Promenade Gran Vía", "Calle Alcalá", "Place de Cybèle", "*Porte d'Alcalá", "Parc du Retiro"],
+      "pt": ["*Puerta del Sol", "Plaza Mayor", "Plaza de la Villa", "*Catedral de Almudena", "*Palácio Real", "Mosteiro das Descalças", "Passeio pela Gran Vía", "Calle Alcalá", "Praça de Cibeles", "*Porta de Alcalá", "Parque do Retiro"],
+      "it": ["*Puerta del Sol", "Plaza Mayor", "Plaza de la Villa", "*Cattedrale dell'Almudena", "*Palazzo Reale", "Monastero delle Descalzas", "Passeggiata Gran Vía", "Calle Alcalá", "Piazza di Cibeles", "*Puerta de Alcalá", "Parco del Retiro"]
+    }
+  },
+  {
+    "id": "cordoba",
+    "city": "Córdoba",
+    "region": "Andalucía",
+    "duration": "2.5h",
+    "languages": ["es", "en", "de", "fr", "pt", "it"],
+    "image": "https://images.unsplash.com/photo-1562619269-4273f925ce2a?q=80&w=2070",
+    "description": {
+      "es": "Recorre las calles milenarias de Córdoba, desde el legado romano hasta el esplendor del Califato. Descubre los secretos de la Judería y la majestuosidad de la Mezquita.",
+      "en": "Walk through the thousand-year-old streets of Córdoba, from the Roman legacy to the splendor of the Caliphate. Discover the secrets of the Jewish Quarter and the majesty of the Mosque.",
+      "de": "Spazieren Sie durch die tausendjährigen Straßen von Córdoba, vom römischen Erbe bis zum Glanz des Kalifats. Entdecken Sie die Geheimnisse des jüdischen Viertels und die Majestät der Moschee.",
+      "fr": "Parcourez les rues millénaires de Cordoue, de l'héritage romain à la splendeur du Califat. Découvrez les secrets de la Juiverie et la majesté de la Mosquée.",
+      "pt": "Percorra as ruas milenares de Córdova, desde o legado romano até ao esplendor do Califado. Descubra os segredos da Judiaria e a majestade da Mesquita.",
+      "it": "Percorri le strade millenarie di Cordova, dall'eredità romana allo splendore del Califfato. Scopri i segreti del quartiere ebraico e la maestosità della Moschea."
+    },
+    "stops": {
+      "es": ["*Plaza de la Corredera", "Templo romano", "Cuesta del Bailío", "*Cristo de los Faroles", "Las Tendillas", "Calleja de la Hoguera", "Plaza Salazar", "Zoco", "Sinagoga", "Maimónides", "*Alcazar de los reyes cristianos", "Molino de la Albolafia", "Puente Romano", "*Mezquita-Catedral"],
+      "en": ["*Corredera Square", "Roman Temple", "Cuesta del Bailío", "*Christ of the Lanterns", "Las Tendillas", "Bonfire Alley", "Salazar Square", "Souk", "Synagogue", "Maimonides", "*Alcazar of the Christian Monarchs", "Albolafia Mill", "Roman Bridge", "*Mosque-Cathedral"],
+      "de": ["*Plaza de la Corredera", "Römischer Tempel", "Cuesta del Bailío", "*Christus der Laternen", "Las Tendillas", "Gasse des Feuers", "Salazar-Platz", "Souk", "Synagoge", "Maimonides", "*Alcázar der Christlichen Könige", "Albolafia-Mühle", "Römische Brücke", "*Moschee-Kathedrale"],
+      "fr": ["*Place de la Corredera", "Temple Romain", "Cuesta del Bailío", "*Christ des Lanternes", "Las Tendillas", "Ruelle du Bûcher", "Place Salazar", "Souk", "Synagogue", "Maïmonide", "*Alcazar des Rois Chrétiens", "Moulin de la Albolafia", "Pont Romain", "*Mosquée-Cathédrale"],
+      "pt": ["*Praça da Corredera", "Templo Romano", "Cuesta del Bailío", "*Cristo dos Faróis", "Las Tendillas", "Beco da Fogueira", "Praça Salazar", "Zoco", "Sinagoga", "Maimônides", "*Alcácer dos Reis Cristãos", "Moinho de Albolafia", "Ponte Romana", "*Mesquita-Catedral"],
+      "it": ["*Plaza de la Corredera", "Tempio Romano", "Cuesta del Bailío", "*Cristo dei Lanterni", "Las Tendillas", "Vicolo del Falò", "Piazza Salazar", "Suk", "Sinagoga", "Maimonide", "*Alcazar dei Re Cristiani", "Mulino della Albolafia", "Ponte Romano", "*Moschea-Cattedrale"]
+    }
+  },
+  {
+    "id": "sevilla",
+    "city": "Sevilla",
+    "region": "Andalucía",
+    "duration": "3h",
+    "languages": ["es", "en", "de", "fr", "pt", "it"],
+    "image": "https://images.unsplash.com/photo-1559563350-66c2055013df?q=80&w=2070",
+    "description": {
+      "es": "Déjate enamorar por Sevilla en un paseo por sus monumentos Patrimonio de la Humanidad. Explora el Alcázar, la Catedral y la Plaza de España en este recorrido inolvidable.",
+      "en": "Fall in love with Seville on a walk through its World Heritage monuments. Explore the Alcázar, the Cathedral, and the Plaza de España on this unforgettable tour.",
+      "de": "Verlieben Sie sich in Sevilla bei einem Spaziergang durch seine Weltkulturerbe-Denkmäler. Erkunden Sie den Alcázar, die Kathedrale und die Plaza de España auf dieser unvergesslichen Tour.",
+      "fr": "Laissez-vous charmer par Séville lors d'une promenade à travers ses monuments classés au patrimoine mondial. Explorez l'Alcazar, la Cathédrale et la Place d'Espagne.",
+      "pt": "Apaixone-se por Sevilha num passeio pelos seus monumentos Património da Humanidade. Explore o Alcácer, a Catedral e a Praça de Espanha neste percurso inesquecível.",
+      "it": "Lasciati innamorare di Siviglia in una passeggiata tra i suoi monumenti Patrimonio dell'Umanità. Esplora l'Alcázar, la Cattedrale e Piazza di Spagna in questo tour indimenticabile."
+    },
+    "stops": {
+      "es": ["Plaza del Triunfo", "*Catedral de Sevilla", "Plaza de Santa Marta", "Plaza de Doña Elvira", "Hospital de los Venerables", "El callejón del agua", "*El Real Alcázar", "Archivo de Indias", "*Torre del Oro", "Palacio de San Telmo", "Real Fábrica de Tabacos", "Parque de María Luisa", "*Plaza de España"],
+      "en": ["Triunfo Square", "*Seville Cathedral", "Santa Marta Square", "Doña Elvira Square", "Hospital of the Venerables", "Water Alley", "*Royal Alcázar", "General Archive of the Indies", "*Tower of Gold", "San Telmo Palace", "Royal Tobacco Factory", "María Luisa Park", "*Plaza de España"],
+      "de": ["Triunfo-Platz", "*Kathedrale von Sevilla", "Santa Marta Platz", "Doña Elvira Platz", "Hospital der Ehrwürdigen", "Wassergasse", "*Königlicher Alcázar", "Indienarchiv", "*Goldturm", "San Telmo Palast", "Königliche Tabakfabrik", "María Luisa Park", "*Plaza de España"],
+      "fr": ["Place du Triomphe", "*Cathédrale de Séville", "Place de Santa Marta", "Place de Doña Elvira", "Hôpital des Vénérables", "Ruelle de l'Eau", "*L'Alcazar Royal", "Archives des Indes", "*Tour de l'Or", "Palais de San Telmo", "Manufacture Royale de Tabac", "Parc de María Luisa", "*Place d'Espagne"],
+      "pt": ["Praça do Triunfo", "*Catedral de Sevilha", "Praça de Santa Marta", "Praça de Doña Elvira", "Hospital dos Veneráveis", "Beco da Água", "*Real Alcácer", "Arquivo das Índias", "*Torre do Ouro", "Palácio de San Telmo", "Real Fábrica de Tabacos", "Parque de María Luisa", "*Praça de Espanha"],
+      "it": ["Piazza del Trionfo", "*Cattedrale di Siviglia", "Piazza di Santa Marta", "Piazza di Doña Elvira", "Ospedale dei Venerabili", "Vicolo dell'Acqua", "*Reale Alcázar", "Archivio delle Indie", "*Torre dell'Oro", "Palazzo di San Telmo", "Reale Fabbrica di Tabacco", "Parco di María Luisa", "*Piazza di Spagna"]
+    }
+  },
+  {
+    "id": "valencia",
+    "city": "Valencia",
+    "region": "Comunidad Valenciana",
+    "duration": "2.5h",
+    "languages": ["es", "en", "de", "fr", "it"],
+    "image": "https://images.unsplash.com/photo-1572086581860-5c7b64967c4c?q=80&w=2070",
+    "description": {
+      "es": "Sumérgete en la historia de Valencia, donde el gótico y el barroco se encuentran. Visita la Lonja, el Mercado Central y la Catedral en una ruta esencial.",
+      "en": "Immerse yourself in the history of Valencia, where Gothic and Baroque meet. Visit the Silk Exchange, the Central Market, and the Cathedral in an essential route.",
+      "de": "Tauchen Sie ein in die Geschichte von Valencia, wo Gotik und Barock aufeinandertreffen. Besuchen Sie die Seidenbörse, den Zentralmarkt und die Kathedrale.",
+      "fr": "Plongez dans l'histoire de Valence, où le gothique et le baroque se rencontrent. Visitez la Loge, le Marché Central et la Cathédrale lors d'une route essentielle.",
+      "pt": "Mergulhe na história de Valência, onde o gótico e o barroco se encontram. Visite a Bolsa, o Mercado Central e a Catedral numa rota essencial.",
+      "it": "Immergiti nella storia di Valencia, dove gotico e barocco si incontrano. Visita la Loggia, il Mercato Centrale e la Cattedrale in un percorso essenziale."
+    },
+    "stops": {
+      "es": ["Estación del Norte", "*Plaza del Ayuntamiento", "Teatro Principal", "Banco de Valencia", "Marqués de Dos Aguas", "Mercado Central", "*Lonja de la Seda", "*Iglesia de San Nicolás", "Plaza de la Virgen", "*La catedral de Valencia", "Basílica de la Virgen de los Desamparados", "*Torres de Serranos"],
+      "en": ["North Station", "*Town Hall Square", "Principal Theater", "Bank of Valencia", "Marquis of Dos Aguas", "Central Market", "*Silk Exchange", "*Church of San Nicolás", "Virgin Square", "*Valencia Cathedral", "Basilica of the Virgin", "*Serranos Towers"],
+      "de": ["Nordbahnhof", "*Rathausplatz", "Haupttheater", "Bank von Valencia", "Marquis von Dos Aguas", "Zentralmarkt", "*Seidenbörse", "*Kirche San Nicolás", "Platz der Jungfrau", "*Kathedrale von Valencia", "Basilika der Jungfrau", "*Serranos-Türme"],
+      "fr": ["Gare du Nord", "*Place de la Mairie", "Théâtre Principal", "Banque de Valence", "Marquis de Dos Aguas", "Marché Central", "*Loge de la Soie", "*Église Saint-Nicolas", "Place de la Vierge", "*Cathédrale de Valence", "Basilique de la Vierge", "*Tours de Serranos"],
+      "pt": ["Estação do Norte", "*Praça da Prefeitura", "Teatro Principal", "Banco de Valência", "Marquês de Dos Aguas", "Mercado Central", "*Bolsa da Seda", "*Igreja de São Nicolau", "Praça da Virgem", "*Catedral de Valência", "Basílica da Virgem", "*Torres de Serranos"],
+      "it": ["Stazione del Nord", "*Piazza del Municipio", "Teatro Principale", "Banca di Valencia", "Marchese di Dos Aguas", "Mercato Centrale", "*Loggia della Seta", "*Chiesa di San Nicola", "Piazza della Vergine", "*Cattedrale di Valencia", "Basilica della Vergine", "*Torri di Serranos"]
+    }
+  },
+  {
+    "id": "granada",
+    "city": "Granada",
+    "region": "Andalucía",
+    "duration": "3h",
+    "languages": ["es", "en", "de", "fr", "pt", "it"],
+    "image": "https://images.unsplash.com/photo-1504618393480-9570230aa31a?q=80&w=2070",
+    "stops": {
+      "es": ["*La Alhambra", "Generalife", "Albaicín"],
+      "en": ["*The Alhambra", "Generalife", "Albaicín"],
+      "de": ["*Die Alhambra", "Generalife", "Albaicín"],
+      "fr": ["*L'Alhambra", "Generalife", "Albaicín"],
+      "pt": ["*A Alhambra", "Generalife", "Albaicín"],
+      "it": ["*L'Alhambra", "Generalife", "Albaicín"]
+    }
+  },
+  {
+    "id": "barcelona",
+    "city": "Barcelona",
+    "region": "Cataluña",
+    "duration": "3h",
+    "languages": ["es", "en", "de", "fr", "pt", "it"],
+    "image": "https://images.unsplash.com/photo-1583422409516-2895a77efded?q=80&w=2070",
+    "stops": {
+      "es": ["*Sagrada Familia", "Parc Güell", "Barrio Gótico"],
+      "en": ["*Sagrada Familia", "Park Güell", "Gothic Quarter"],
+      "de": ["*Sagrada Familia", "Park Güell", "Gotisches Viertel"],
+      "fr": ["*Sagrada Familia", "Parc Güell", "Quartier Gothique"],
+      "pt": ["*Sagrada Familia", "Parque Güell", "Bairro Gótico"],
+      "it": ["*Sagrada Familia", "Parco Güell", "Quartiere Gotico"]
+    }
+  },
+  {
+    "id": "toledo",
+    "city": "Toledo",
+    "region": "Castilla-La Mancha",
+    "duration": "3h",
+    "languages": ["es", "en", "de", "fr", "pt", "it"],
+    "image": "https://images.unsplash.com/photo-1579288750033-666819d6929b?q=80&w=2070",
+    "stops": {
+      "es": ["*Catedral Primada", "Alcázar de Toledo", "Sinagoga"],
+      "en": ["*Primate Cathedral", "Alcázar of Toledo", "Synagogue"],
+      "de": ["*Kathedrale", "Alcázar von Toledo", "Synagoge"],
+      "fr": ["*Cathédrale Primatiale", "Alcazar de Tolède", "Synagogue"],
+      "pt": ["*Catedral Primaz", "Alcácer de Toledo", "Sinagoga"],
+      "it": ["*Cattedrale Primaziale", "Alcázar di Toledo", "Sinagoga"]
+    }
+  },
+  {
+    "id": "bilbao",
+    "city": "Bilbao",
+    "region": "País Vasco",
+    "duration": "3h",
+    "languages": ["es", "en", "de", "fr", "pt", "it"],
+    "image": "https://images.unsplash.com/photo-1505832018823-50331d70d237?q=80&w=2008",
+    "stops": {
+      "es": ["*Museo Guggenheim", "Casco Viejo"],
+      "en": ["*Guggenheim Museum", "Old Town"],
+      "de": ["*Guggenheim-Museum", "Altstadt"],
+      "fr": ["*Musée Guggenheim", "Vieille Ville"],
+      "pt": ["*Museu Guggenheim", "Casco Viejo"],
+      "it": ["*Museo Guggenheim", "Centro Storico"]
+    }
+  }
+]
