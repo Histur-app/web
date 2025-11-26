@@ -5,7 +5,7 @@
     "region": "Madrid",
     "duration": "3h",
     "languages": ["es", "en", "de", "fr", "pt", "it"],
-    "image": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?q=80&w=2070",
+    "image": "./portadas/madrid_principal.webp",
     "description": {
       "es": "Disfruta de un paseo por el centro de Madrid en un recorrido de unas 3 horas, aprendiendo sobre cada punto y su historia. Daremos un salto al pasado con un mapa de 1656!",
       "en": "Enjoy a walk through the center of Madrid on a 3-hour tour, learning about each point and its history. Take a leap into the past with a map from 1656!",
@@ -29,7 +29,7 @@
     "region": "Andalucía",
     "duration": "2.5h",
     "languages": ["es", "en", "de", "fr", "pt", "it"],
-    "image": "https://images.unsplash.com/photo-1562619269-4273f925ce2a?q=80&w=2070",
+    "image": "./portadas/cordoba_principal.webp",
     "description": {
       "es": "Recorre las calles milenarias de Córdoba, desde el legado romano hasta el esplendor del Califato. Descubre los secretos de la Judería y la majestuosidad de la Mezquita.",
       "en": "Walk through the thousand-year-old streets of Córdoba, from the Roman legacy to the splendor of the Caliphate. Discover the secrets of the Jewish Quarter and the majesty of the Mosque.",
@@ -53,7 +53,7 @@
     "region": "Andalucía",
     "duration": "3h",
     "languages": ["es", "en", "de", "fr", "pt", "it"],
-    "image": "https://images.unsplash.com/photo-1559563350-66c2055013df?q=80&w=2070",
+    "image": "./portadas/sevilla_principal.webp",
     "description": {
       "es": "Déjate enamorar por Sevilla en un paseo por sus monumentos Patrimonio de la Humanidad. Explora el Alcázar, la Catedral y la Plaza de España en este recorrido inolvidable.",
       "en": "Fall in love with Seville on a walk through its World Heritage monuments. Explore the Alcázar, the Cathedral, and the Plaza de España on this unforgettable tour.",
@@ -77,7 +77,7 @@
     "region": "Comunidad Valenciana",
     "duration": "2.5h",
     "languages": ["es", "en", "de", "fr", "it"],
-    "image": "https://images.unsplash.com/photo-1572086581860-5c7b64967c4c?q=80&w=2070",
+    "image": "./portadas/valencia_principal.webp",
     "description": {
       "es": "Sumérgete en la historia de Valencia, donde el gótico y el barroco se encuentran. Visita la Lonja, el Mercado Central y la Catedral en una ruta esencial.",
       "en": "Immerse yourself in the history of Valencia, where Gothic and Baroque meet. Visit the Silk Exchange, the Central Market, and the Cathedral in an essential route.",
