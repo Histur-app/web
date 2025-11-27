@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Histur - Privacy Policy</title>
+    <meta name="description" content="Política de privacidad de Histur.">
+    <link rel="icon" href="./images/logo_android.svg" type="image/svg">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <!-- Fonts -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap');
+        
+        body { font-family: 'Inter', sans-serif; }
+        h1, h2, h3, .serif { font-family: 'Playfair Display', serif; }
+        
+        .bg-histur-dark { background-color: #1e2336; }
+        .text-histur-gold { color: #d97706; }
+        .bg-histur-gold { background-color: #d97706; }
+        
+        /* Dropdown transition */
+        .group:hover .group-hover\:block { display: block; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900 selection:bg-amber-200 flex flex-col min-h-screen">
+
+    <!-- Navbar -->
+    <nav class="sticky top-0 z-40 bg-white/90 backdrop-blur-md border-b border-slate-200">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <a href="index.html" class="flex items-center gap-3 hover:opacity-80 transition">
+                <img src="./images/logo_android.svg" alt="Histur Logo" class="w-10 h-10 rounded-xl shadow-sm">
+                <span class="text-2xl font-bold text-slate-900 tracking-tight serif">Histur</span>
+            </a>
+            <div class="flex items-center gap-4">
+                <a href="index.html#download" class="hidden md:block bg-amber-600 hover:bg-amber-700 text-white font-medium px-5 py-2 rounded-full transition shadow-lg shadow-amber-600/20 text-sm" id="nav-cta">
+                    Descargar App
+                </a>
+                
+                <!-- Language Dropdown -->
+                <div class="relative group">
+                    <button class="flex items-center gap-2 bg-slate-100 text-slate-700 border border-slate-200 px-3 py-2 rounded-full hover:bg-slate-200 transition text-sm">
+                        <i data-lucide="globe" class="w-4 h-4"></i>
+                        <span id="current-lang-flag">🇪🇸</span>
+                        <i data-lucide="chevron-down" class="w-4 h-4 text-slate-400"></i>
+                    </button>
+                    <div class="absolute right-0 mt-0 w-40 bg-transparent hidden group-hover:block z-50 pt-2">
+                        <div class="bg-white rounded-lg shadow-xl border border-slate-100 py-1 overflow-hidden">
+                            <button onclick="changeLang('es')" class="w-full text-left px-4 py-2 text-sm hover:bg-slate-50 flex items-center gap-2"><span>🇪🇸</span> Español</button>
+                            <button onclick="changeLang('en')" class="w-full text-left px-4 py-2 text-sm hover:bg-slate-50 flex items-center gap-2"><span>🇬🇧</span> English</button>
+                            <button onclick="changeLang('de')" class="w-full text-left px-4 py-2 text-sm hover:bg-slate-50 flex items-center gap-2"><span>🇩🇪</span> Deutsch</button>
+                            <button onclick="changeLang('fr')" class="w-full text-left px-4 py-2 text-sm hover:bg-slate-50 flex items-center gap-2"><span>🇫🇷</span> Français</button>
+                            <button onclick="changeLang('pt')" class="w-full text-left px-4 py-2 text-sm hover:bg-slate-50 flex items-center gap-2"><span>🇵🇹</span> Português</button>
+                            <button onclick="changeLang('it')" class="w-full text-left px-4 py-2 text-sm hover:bg-slate-50 flex items-center gap-2"><span>🇮🇹</span> Italiano</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="flex-grow container mx-auto px-4 py-12 max-w-4xl">
+        <div class="bg-white p-8 md:p-12 rounded-2xl shadow-sm border border-slate-100">
+            <h1 id="policy-title" class="text-3xl md:text-4xl font-bold text-slate-900 mb-4 serif">Privacy Policy</h1>
+            <p id="last-updated" class="text-slate-500 mb-8 italic">Last updated: 2025</p>
+            
+            <div id="policy-content" class="space-y-6 text-slate-700 leading-relaxed text-lg">
+                <!-- Content injected via JS -->
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-[#0f111a] text-slate-500 py-12 border-t border-slate-800">
+        <div class="container mx-auto px-4 text-center">
+            <div class="flex justify-center items-center gap-2 mb-8">
+                <img src="./images/logo_android.svg" alt="Histur Logo" class="w-8 h-8 rounded-lg shadow-sm grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all duration-300">
+                <span class="text-xl font-bold text-white serif">Histur</span>
+            </div>
+            <div class="flex justify-center gap-6 mb-8 text-sm">
+                <a href="privacy.html" class="text-amber-500 font-bold transition" id="footer-privacy">Privacidad</a>
+                <a href="mailto:histur.app@gmail.com" class="hover:text-amber-500 transition" id="footer-contact">Contacto</a>
+            </div>
+            <p id="footer-text" class="text-xs text-slate-600">© 2025 Histur. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        const flags = { es: '🇪🇸', en: '🇬🇧', de: '🇩🇪', fr: '🇫🇷', pt: '🇵🇹', it: '🇮🇹' };
+        
+        const content = {
+            es: {
+                navCta: "Descargar App",
+                title: "Política de Privacidad",
+                updated: "Última actualización: 2025",
+                intro: "Gracias por utilizar nuestra aplicación. Su privacidad es muy importante para nosotros. Esta Política de Privacidad explica cómo manejamos sus datos cuando utiliza nuestra aplicación.",
+                sections: [
+                    { t: "1. Información que recopilamos", c: "Nuestra aplicación no recopila información de identificación personal como su nombre, dirección, correo electrónico o número de teléfono.<br><br>Sin embargo, podemos recopilar información no personal, como:<br><ul class='list-disc pl-5 mt-2 space-y-1'><li>Estadísticas de uso anónimas para mejorar el rendimiento de la aplicación.</li><li>Información técnica sobre su dispositivo (modelo, sistema operativo, etc.).</li><li>Datos de diagnóstico en caso de errores (informes de fallos).</li></ul><br>Estos datos se utilizan únicamente para mejorar la funcionalidad y la experiencia de usuario de la aplicación." },
+                    { t: "2. Permisos", c: "La aplicación puede solicitar permisos como el acceso al almacenamiento o a la ubicación, pero estos solo se utilizan para proporcionar funciones principales (por ejemplo, ayudarle a ubicarse en el mapa o guardar contenido sin conexión), y nunca se utilizan para recopilar datos personales." },
+                    { t: "3. Contenido de terceros", c: "Nuestra aplicación puede incluir enlaces o contenido incrustado de servicios externos (como mapas, audio o imágenes). Estos servicios pueden tener sus propias políticas de privacidad." },
+                    { t: "4. Seguridad", c: "Nos comprometemos a proteger cualquier dato no personal recopilado. No compartimos ni vendemos ningún dato a terceros." },
+                    { t: "5. Cambios en esta política", c: "Nos reservamos el derecho de actualizar esta política en cualquier momento. Si se realizan cambios significativos, notificaremos a los usuarios dentro de la aplicación o a través de otros medios apropiados." },
+                    { t: "6. Contacto", c: "Si tiene alguna pregunta sobre esta política, contáctenos en: histur.app@gmail.com" }
+                ],
+                footerPrivacy: "Privacidad",
+                footerContact: "Contacto",
+                footerText: "© 2025 Histur. Todos los derechos reservados."
+            },
+            en: {
+                navCta: "Download App",
+                title: "Privacy Policy",
+                updated: "Last updated: 2025",
+                intro: "Thank you for using our app. Your privacy is very important to us. This Privacy Policy explains how we handle your data when you use our application.",
+                sections: [
+                    { t: "1. Information We Collect", c: "Our app does not collect personally identifiable information such as your name, address, email, or phone number.<br><br>However, we may collect non-personal information, such as:<br><ul class='list-disc pl-5 mt-2 space-y-1'><li>Anonymous usage statistics to improve app performance.</li><li>Technical information about your device (model, operating system, etc.).</li><li>Diagnostic data in case of errors (crash reports).</li></ul><br>This data is used solely to improve the functionality and user experience of the app." },
+                    { t: "2. Permissions", c: "The app may request permissions such as access to storage or location, but these are only used to provide core features (e.g., helping you locate yourself on the map or saving offline content), and are never used to collect personal data." },
+                    { t: "3. Third-Party Content", c: "Our app may include links or embedded content from external services (such as maps, audio, or images). These services may have their own privacy policies." },
+                    { t: "4. Security", c: "We are committed to protecting any non-personal data collected. We do not share or sell any data to third parties." },
+                    { t: "5. Changes to This Policy", c: "We reserve the right to update this policy at any time. If significant changes are made, we will notify users within the app or through other appropriate means." },
+                    { t: "6. Contact", c: "If you have any questions about this policy, please contact us at: histur.app@gmail.com" }
+                ],
+                footerPrivacy: "Privacy",
+                footerContact: "Contact",
+                footerText: "© 2025 Histur. All rights reserved."
+            },
+            de: {
+                navCta: "App laden",
+                title: "Datenschutzerklärung",
+                updated: "Zuletzt aktualisiert: 2025",
+                intro: "Danke, dass Sie unsere App nutzen. Ihre Privatsphäre ist uns sehr wichtig. Diese Datenschutzerklärung erklärt, wie wir mit Ihren Daten umgehen, wenn Sie unsere Anwendung nutzen.",
+                sections: [
+                    { t: "1. Informationen, die wir sammeln", c: "Unsere App sammelt keine persönlich identifizierbaren Informationen wie Ihren Namen, Ihre Adresse, E-Mail oder Telefonnummer.<br><br>Wir können jedoch nicht-personenbezogene Informationen sammeln, wie:<br><ul class='list-disc pl-5 mt-2 space-y-1'><li>Anonyme Nutzungsstatistiken zur Verbesserung der App-Leistung.</li><li>Technische Informationen über Ihr Gerät (Modell, Betriebssystem usw.).</li><li>Diagnosedaten im Fehlerfall (Absturzberichte).</li></ul><br>Diese Daten werden ausschließlich verwendet, um die Funktionalität und das Benutzererlebnis der App zu verbessern." },
+                    { t: "2. Berechtigungen", c: "Die App kann Berechtigungen wie den Zugriff auf Speicher oder Standort anfordern, diese werden jedoch nur verwendet, um Kernfunktionen bereitzustellen (z. B. um Ihnen zu helfen, sich auf der Karte zu finden oder Offline-Inhalte zu speichern), und werden niemals verwendet, um persönliche Daten zu sammeln." },
+                    { t: "3. Inhalte Dritter", c: "Unsere App kann Links oder eingebettete Inhalte von externen Diensten (wie Karten, Audio oder Bilder) enthalten. Diese Dienste können ihre eigenen Datenschutzrichtlinien haben." },
+                    { t: "4. Sicherheit", c: "Wir verpflichten uns, alle gesammelten nicht-personenbezogenen Daten zu schützen. Wir teilen oder verkaufen keine Daten an Dritte." },
+                    { t: "5. Änderungen an dieser Richtlinie", c: "Wir behalten uns das Recht vor, diese Richtlinie jederzeit zu aktualisieren. Wenn wesentliche Änderungen vorgenommen werden, werden wir die Benutzer innerhalb der App oder auf andere geeignete Weise benachrichtigen." },
+                    { t: "6. Kontakt", c: "Wenn Sie Fragen zu dieser Richtlinie haben, kontaktieren Sie uns bitte unter: histur.app@gmail.com" }
+                ],
+                footerPrivacy: "Datenschutz",
+                footerContact: "Kontakt",
+                footerText: "© 2025 Histur. Alle Rechte vorbehalten."
+            },
+            fr: {
+                navCta: "Télécharger",
+                title: "Politique de Confidentialité",
+                updated: "Dernière mise à jour : 2025",
+                intro: "Merci d'utiliser notre application. Votre vie privée est très importante pour nous. Cette politique de confidentialité explique comment nous traitons vos données lorsque vous utilisez notre application.",
+                sections: [
+                    { t: "1. Informations que nous collectons", c: "Notre application ne collecte pas d'informations personnellement identifiables telles que votre nom, adresse, e-mail ou numéro de téléphone.<br><br>Cependant, nous pouvons collecter des informations non personnelles, telles que :<br><ul class='list-disc pl-5 mt-2 space-y-1'><li>Statistiques d'utilisation anonymes pour améliorer les performances de l'application.</li><li>Informations techniques sur votre appareil (modèle, système d'exploitation, etc.).</li><li>Données de diagnostic en cas d'erreurs (rapports de plantage).</li></ul><br>Ces données sont utilisées uniquement pour améliorer la fonctionnalité et l'expérience utilisateur de l'application." },
+                    { t: "2. Autorisations", c: "L'application peut demander des autorisations telles que l'accès au stockage ou à la localisation, mais celles-ci ne sont utilisées que pour fournir des fonctionnalités essentielles (par exemple, vous aider à vous localiser sur la carte ou enregistrer du contenu hors ligne), et ne sont jamais utilisées pour collecter des données personnelles." },
+                    { t: "3. Contenu tiers", c: "Notre application peut inclure des liens ou du contenu intégré provenant de services externes (tels que des cartes, de l'audio ou des images). Ces services peuvent avoir leurs propres politiques de confidentialité." },
+                    { t: "4. Sécurité", c: "Nous nous engageons à protéger toutes les données non personnelles collectées. Nous ne partageons ni ne vendons aucune donnée à des tiers." },
+                    { t: "5. Modifications de cette politique", c: "Nous nous réservons le droit de mettre à jour cette politique à tout moment. Si des modifications importantes sont apportées, nous informerons les utilisateurs dans l'application ou par d'autres moyens appropriés." },
+                    { t: "6. Contact", c: "Si vous avez des questions concernant cette politique, veuillez nous contacter à : histur.app@gmail.com" }
+                ],
+                footerPrivacy: "Confidentialité",
+                footerContact: "Contact",
+                footerText: "© 2025 Histur. Tous droits réservés."
+            },
+            pt: {
+                navCta: "Baixar",
+                title: "Política de Privacidade",
+                updated: "Última atualização: 2025",
+                intro: "Obrigado por usar nosso aplicativo. Sua privacidade é muito importante para nós. Esta Política de Privacidade explica como lidamos com seus dados quando você usa nosso aplicativo.",
+                sections: [
+                    { t: "1. Informações que coletamos", c: "Nosso aplicativo não coleta informações de identificação pessoal, como seu nome, endereço, e-mail ou número de telefone.<br><br>No entanto, podemos coletar informações não pessoais, como:<br><ul class='list-disc pl-5 mt-2 space-y-1'><li>Estatísticas de uso anônimas para melhorar o desempenho do aplicativo.</li><li>Informações técnicas sobre seu dispositivo (modelo, sistema operacional, etc.).</li><li>Dados de diagnóstico em caso de erros (relatórios de falhas).</li></ul><br>Esses dados são usados apenas para melhorar a funcionalidade e a experiência do usuário do aplicativo." },
+                    { t: "2. Permissões", c: "O aplicativo pode solicitar permissões, como acesso ao armazenamento ou localização, mas estas são usadas apenas para fornecer recursos essenciais (por exemplo, ajudá-lo a se localizar no mapa ou salvar conteúdo offline), e nunca são usadas para coletar dados pessoais." },
+                    { t: "3. Conteúdo de terceiros", c: "Nosso aplicativo pode incluir links ou conteúdo incorporado de serviços externos (como mapas, áudio ou imagens). Esses serviços podem ter suas próprias políticas de privacidade." },
+                    { t: "4. Segurança", c: "Estamos comprometidos em proteger quaisquer dados não pessoais coletados. Não compartilhamos nem vendemos dados a terceiros." },
+                    { t: "5. Alterações nesta política", c: "Reservamo-nos o direito de atualizar esta política a qualquer momento. Se forem feitas alterações significativas, notificaremos os usuários dentro do aplicativo ou por outros meios apropriados." },
+                    { t: "6. Contato", c: "Se você tiver alguma dúvida sobre esta política, entre em contato conosco em: histur.app@gmail.com" }
+                ],
+                footerPrivacy: "Privacidade",
+                footerContact: "Contato",
+                footerText: "© 2025 Histur. Todos os direitos reservados."
+            },
+            it: {
+                navCta: "Scarica",
+                title: "Informativa sulla Privacy",
+                updated: "Ultimo aggiornamento: 2025",
+                intro: "Grazie per aver utilizzato la nostra app. La tua privacy è molto importante per noi. Questa Informativa sulla Privacy spiega come gestiamo i tuoi dati quando utilizzi la nostra applicazione.",
+                sections: [
+                    { t: "1. Informazioni che raccogliamo", c: "La nostra app non raccoglie informazioni di identificazione personale come nome, indirizzo, email o numero di telefono.<br><br>Tuttavia, potremmo raccogliere informazioni non personali, come:<br><ul class='list-disc pl-5 mt-2 space-y-1'><li>Statistiche di utilizzo anonime per migliorare le prestazioni dell'app.</li><li>Informazioni tecniche sul tuo dispositivo (modello, sistema operativo, ecc.).</li><li>Dati diagnostici in caso di errori (rapporti sugli arresti anomali).</li></ul><br>Questi dati vengono utilizzati esclusivamente per migliorare la funzionalità e l'esperienza utente dell'app." },
+                    { t: "2. Autorizzazioni", c: "L'app potrebbe richiedere autorizzazioni come l'accesso allo spazio di archiviazione o alla posizione, ma queste vengono utilizzate solo per fornire funzionalità principali (ad es. aiutarti a localizzarti sulla mappa o salvare contenuti offline) e non vengono mai utilizzate per raccogliere dati personali." },
+                    { t: "3. Contenuti di terze parti", c: "La nostra app può includere collegamenti o contenuti incorporati da servizi esterni (come mappe, audio o immagini). Questi servizi possono avere le proprie politiche sulla privacy." },
+                    { t: "4. Sicurezza", c: "Ci impegniamo a proteggere tutti i dati non personali raccolti. Non condividiamo né vendiamo dati a terzi." },
+                    { t: "5. Modifiche a questa politica", c: "Ci riserviamo il diritto di aggiornare questa politica in qualsiasi momento. In caso di modifiche significative, avviseremo gli utenti all'interno dell'app o tramite altri mezzi appropriati." },
+                    { t: "6. Contatto", c: "In caso di domande su questa politica, contattaci all'indirizzo: histur.app@gmail.com" }
+                ],
+                footerPrivacy: "Privacy",
+                footerContact: "Contatto",
+                footerText: "© 2025 Histur. Tutti i diritti riservati."
+            }
+        };
+
+        function changeLang(lang) {
+            localStorage.setItem('histur_lang', lang);
+            const t = content[lang];
+            
+            // Navbar
+            document.getElementById('nav-cta').innerText = t.navCta;
+            document.getElementById('current-lang-flag').innerText = flags[lang];
+
+            // Policy Content
+            document.getElementById('policy-title').innerText = t.title;
+            document.getElementById('last-updated').innerText = t.updated;
+            
+            const container = document.getElementById('policy-content');
+            container.innerHTML = `<p class="font-medium">${t.intro}</p>`;
+            
+            t.sections.forEach(sec => {
+                const sectionHtml = `
+                    <div class="mt-8">
+                        <h2 class="text-xl font-bold text-slate-900 mb-3 serif">${sec.t}</h2>
+                        <p class="text-slate-700">${sec.c}</p>
+                    </div>
+                `;
+                container.innerHTML += sectionHtml;
+            });
+
+            // Footer
+            document.getElementById('footer-privacy').innerText = t.footerPrivacy;
+            document.getElementById('footer-contact').innerText = t.footerContact;
+            document.getElementById('footer-text').innerText = t.footerText;
+        }
+
+        document.addEventListener("DOMContentLoaded", () => {
+            lucide.createIcons();
+            const savedLang = localStorage.getItem('histur_lang') || 'es';
+            changeLang(savedLang);
+        });
+    </script>
+</body>
+</html>
