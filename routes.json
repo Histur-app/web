@@ -25,28 +25,28 @@
     }
   },
   {
-    "id": "cordoba",
-    "city": "Córdoba",
-    "region": "Andalucía",
-    "duration": "2.5h",
+    "id": "toledo",
+    "city": "Toledo",
+    "region": "Castilla la Mancha",
+    "duration": "3h",
     "languages": ["es", "en", "de", "fr", "pt", "it"],
-    "portada": "./portadas/cordoba_principal.webp",
-    "mapa": "./mapas/cordoba_principal.webp",
+    "portada": "./portadas/toledo_principal.webp",
+    "mapa": "./mapas/toledo_principal.webp",
     "description": {
-      "es": "Recorre las calles milenarias de Córdoba, desde el legado romano hasta el esplendor del Califato. Descubre los secretos de la Judería y la majestuosidad de la Mezquita.",
-      "en": "Walk through the thousand-year-old streets of Córdoba, from the Roman legacy to the splendor of the Caliphate. Discover the secrets of the Jewish Quarter and the majesty of the Mosque.",
-      "de": "Spazieren Sie durch die tausendjährigen Straßen von Córdoba, vom römischen Erbe bis zum Glanz des Kalifats. Entdecken Sie die Geheimnisse des jüdischen Viertels und die Majestät der Moschee.",
-      "fr": "Parcourez les rues millénaires de Cordoue, de l'héritage romain à la splendeur du Califat. Découvrez les secrets de la Juiverie et la majesté de la Mosquée.",
-      "pt": "Percorra as ruas milenares de Córdova, desde o legado romano até ao esplendor do Califado. Descubra os segredos da Judiaria e a majestade da Mesquita.",
-      "it": "Percorri le strade millenarie di Cordova, dall'eredità romana allo splendore del Califfato. Scopri i segreti del quartiere ebraico e la maestosità della Moschea."
+        "es": "Déjate cautivar por Toledo en un viaje a través de la historia. Explora el Alcázar, la Catedral Primada y las estrechas calles de su casco antiguo en este recorrido inolvidable.",
+        "en": "Be captivated by Toledo on a journey through history. Explore the Alcázar, the Primate Cathedral, and the narrow streets of its old town on this unforgettable tour.",
+        "de": "Lassen Sie sich von Toledo auf einer Reise durch die Geschichte verzaubern. Erkunden Sie den Alcázar, die Primatkathedrale und die engen Gassen der Altstadt auf dieser unvergesslichen Tour.",
+        "fr": "Laissez-vous envoûter par Tolède lors d'un voyage à travers l'histoire. Explorez l'Alcazar, la Cathédrale Primatiale et les ruelles de la vieille ville lors de ce parcours inoubliable.",
+        "pt": "Deixe-se cativar por Toledo numa viagem através da história. Explore o Alcácer, a Catedral Primada e as ruas estreitas do seu centro histórico neste percurso inesquecível.",
+        "it": "Lasciati affascinare da Toledo in un viaggio attraverso la storia. Esplora l'Alcázar, la Cattedrale Primata e le strette vie del centro storico in questo tour indimenticabile."
     },
     "stops": {
-      "es": ["*Plaza de la Corredera", "Templo romano", "Cuesta del Bailío", "*Cristo de los Faroles", "Las Tendillas", "Calleja de la Hoguera", "Plaza Salazar", "Zoco", "Sinagoga", "Maimónides", "*Alcazar de los reyes cristianos", "Molino de la Albolafia", "Puente Romano", "*Mezquita-Catedral"],
-      "en": ["*Corredera Square", "Roman Temple", "Cuesta del Bailío", "*Christ of the Lanterns", "Las Tendillas", "Bonfire Alley", "Salazar Square", "Souk", "Synagogue", "Maimonides", "*Alcazar of the Christian Monarchs", "Albolafia Mill", "Roman Bridge", "*Mosque-Cathedral"],
-      "de": ["*Plaza de la Corredera", "Römischer Tempel", "Cuesta del Bailío", "*Christus der Laternen", "Las Tendillas", "Gasse des Feuers", "Salazar-Platz", "Souk", "Synagoge", "Maimonides", "*Alcázar der Christlichen Könige", "Albolafia-Mühle", "Römische Brücke", "*Moschee-Kathedrale"],
-      "fr": ["*Place de la Corredera", "Temple Romain", "Cuesta del Bailío", "*Christ des Lanternes", "Las Tendillas", "Ruelle du Bûcher", "Place Salazar", "Souk", "Synagogue", "Maïmonide", "*Alcazar des Rois Chrétiens", "Moulin de la Albolafia", "Pont Romain", "*Mosquée-Cathédrale"],
-      "pt": ["*Praça da Corredera", "Templo Romano", "Cuesta del Bailío", "*Cristo dos Faróis", "Las Tendillas", "Beco da Fogueira", "Praça Salazar", "Zoco", "Sinagoga", "Maimônides", "*Alcácer dos Reis Cristãos", "Moinho de Albolafia", "Ponte Romana", "*Mesquita-Catedral"],
-      "it": ["*Plaza de la Corredera", "Tempio Romano", "Cuesta del Bailío", "*Cristo dei Lanterni", "Las Tendillas", "Vicolo del Falò", "Piazza Salazar", "Suk", "Sinagoga", "Maimonide", "*Alcazar dei Re Cristiani", "Mulino della Albolafia", "Ponte Romano", "*Moschea-Cattedrale"]
+        "es": ["*Alcázar de Toledo", "Plaza de Zocodover", "Puerta del Sol", "*Mezquita del Cristo de la Luz", "Los Cobertizos de Santo Domingo el Real", "Calle del Hombre de Palo", "*Catedral Primada", "Plaza del Ayuntamiento", "Barrio de la Judería", "Iglesia de Santo Tomé", "*Sinagoga del Tránsito", "Sinagoga de Santa María la Blanca", "*Monasterio de San Juan de los Reyes", "Puente de San Martín"],
+        "en": ["*Alcázar of Toledo", "Plaza de Zocodover", "Puerta del Sol", "*Mosque of Cristo de la Luz", "The Sheds of Santo Domingo el Real", "Calle del Hombre de Palo", "*Primada Cathedral", "Town Hall Square", "Jewish Quarter", "Church of Santo Tomé", "Tránsito Synagogue", "*Synagogue of Santa María la Blanca", "*Monastery of San Juan de los Reyes", "San Martín Bridge"],
+        "de": ["*Alcázar von Toledo", "Plaza de Zocodover", "Puerta del Sol", "*Moschee Cristo de la Luz", "Die Schuppen von Santo Domingo el Real", "Calle del Hombre de Palo", "*Primatialkathedrale", "Rathausplatz", "Juderviertel", "Kirche Santo Tomé", "Synagoge El Tránsito", "*Synagoge Santa María la Blanca", "*Kloster San Juan de los Reyes", "Brücke San Martín"],
+        "fr": ["*Alcázar de Tolède", "Place Zocodover", "Porte du Soleil", "*Mosquée du Christ de la Lumière", "Les Cobertizos de Santo Domingo el Real", "Rue de l'Homme de Bois", "*Cathédrale Primada", "Place de la mairie", "Quartier juif", "Église Santo Tomé", "Synagogue du Tránsito", "*Synagogue Santa María la Blanca", "*Monastère de San Juan de los Reyes", "Pont de San Martín"],
+        "it": ["*Alcázar di Toledo", "Piazza Zocodover", "Porta del Sole", "*Moschea del Cristo de la Luz", "I Cobertizos di Santo Domingo el Real", "Calle del Hombre de Palo", "*Cattedrale Primaziale", "Piazza del Municipio", "Quartiere della Judería", "Chiesa di Santo Tomé", "Sinagoga del Tránsito", "*Sinagoga di Santa María la Blanca", "*Monastero di San Juan de los Reyes", "Ponte di San Martín"],
+        "pt": ["*Alcázar de Toledo", "Praça de Zocodover", "Porta do Sol", "*Mesquita do Cristo da Luz", "Os Cobertizos de Santo Domingo el Real", "Rua do Homem de Pau", "*Catedral Primada", "Praça da Câmara Municipal", "Bairro da Judería", "Igreja de Santo Tomé", "Sinagoga del Tránsito", "*Sinagoga de Santa Maria a Branca", "*Mosteiro de San Juan de los Reyes", "Ponte de San Martín"]
     }
   },
   {
@@ -72,6 +72,31 @@
       "fr": ["Place du Triomphe", "*Cathédrale de Séville", "Place de Santa Marta", "Place de Doña Elvira", "Hôpital des Vénérables", "Ruelle de l'Eau", "*L'Alcazar Royal", "Archives des Indes", "*Tour de l'Or", "Palais de San Telmo", "Manufacture Royale de Tabac", "Parc de María Luisa", "*Place d'Espagne"],
       "pt": ["Praça do Triunfo", "*Catedral de Sevilha", "Praça de Santa Marta", "Praça de Doña Elvira", "Hospital dos Veneráveis", "Beco da Água", "*Real Alcácer", "Arquivo das Índias", "*Torre do Ouro", "Palácio de San Telmo", "Real Fábrica de Tabacos", "Parque de María Luisa", "*Praça de Espanha"],
       "it": ["Piazza del Trionfo", "*Cattedrale di Siviglia", "Piazza di Santa Marta", "Piazza di Doña Elvira", "Ospedale dei Venerabili", "Vicolo dell'Acqua", "*Reale Alcázar", "Archivio delle Indie", "*Torre dell'Oro", "Palazzo di San Telmo", "Reale Fabbrica di Tabacco", "Parco di María Luisa", "*Piazza di Spagna"]
+    }
+  },
+  {
+    "id": "cordoba",
+    "city": "Córdoba",
+    "region": "Andalucía",
+    "duration": "2.5h",
+    "languages": ["es", "en", "de", "fr", "pt", "it"],
+    "portada": "./portadas/cordoba_principal.webp",
+    "mapa": "./mapas/cordoba_principal.webp",
+    "description": {
+      "es": "Recorre las calles milenarias de Córdoba, desde el legado romano hasta el esplendor del Califato. Descubre los secretos de la Judería y la majestuosidad de la Mezquita.",
+      "en": "Walk through the thousand-year-old streets of Córdoba, from the Roman legacy to the splendor of the Caliphate. Discover the secrets of the Jewish Quarter and the majesty of the Mosque.",
+      "de": "Spazieren Sie durch die tausendjährigen Straßen von Córdoba, vom römischen Erbe bis zum Glanz des Kalifats. Entdecken Sie die Geheimnisse des jüdischen Viertels und die Majestät der Moschee.",
+      "fr": "Parcourez les rues millénaires de Cordoue, de l'héritage romain à la splendeur du Califat. Découvrez les secrets de la Juiverie et la majesté de la Mosquée.",
+      "pt": "Percorra as ruas milenares de Córdova, desde o legado romano até ao esplendor do Califado. Descubra os segredos da Judiaria e a majestade da Mesquita.",
+      "it": "Percorri le strade millenarie di Cordova, dall'eredità romana allo splendore del Califfato. Scopri i segreti del quartiere ebraico e la maestosità della Moschea."
+    },
+    "stops": {
+      "es": ["*Plaza de la Corredera", "Templo romano", "Cuesta del Bailío", "*Cristo de los Faroles", "Las Tendillas", "Calleja de la Hoguera", "Plaza Salazar", "Zoco", "Sinagoga", "Maimónides", "*Alcazar de los reyes cristianos", "Molino de la Albolafia", "Puente Romano", "*Mezquita-Catedral"],
+      "en": ["*Corredera Square", "Roman Temple", "Cuesta del Bailío", "*Christ of the Lanterns", "Las Tendillas", "Bonfire Alley", "Salazar Square", "Souk", "Synagogue", "Maimonides", "*Alcazar of the Christian Monarchs", "Albolafia Mill", "Roman Bridge", "*Mosque-Cathedral"],
+      "de": ["*Plaza de la Corredera", "Römischer Tempel", "Cuesta del Bailío", "*Christus der Laternen", "Las Tendillas", "Gasse des Feuers", "Salazar-Platz", "Souk", "Synagoge", "Maimonides", "*Alcázar der Christlichen Könige", "Albolafia-Mühle", "Römische Brücke", "*Moschee-Kathedrale"],
+      "fr": ["*Place de la Corredera", "Temple Romain", "Cuesta del Bailío", "*Christ des Lanternes", "Las Tendillas", "Ruelle du Bûcher", "Place Salazar", "Souk", "Synagogue", "Maïmonide", "*Alcazar des Rois Chrétiens", "Moulin de la Albolafia", "Pont Romain", "*Mosquée-Cathédrale"],
+      "pt": ["*Praça da Corredera", "Templo Romano", "Cuesta del Bailío", "*Cristo dos Faróis", "Las Tendillas", "Beco da Fogueira", "Praça Salazar", "Zoco", "Sinagoga", "Maimônides", "*Alcácer dos Reis Cristãos", "Moinho de Albolafia", "Ponte Romana", "*Mesquita-Catedral"],
+      "it": ["*Plaza de la Corredera", "Tempio Romano", "Cuesta del Bailío", "*Cristo dei Lanterni", "Las Tendillas", "Vicolo del Falò", "Piazza Salazar", "Suk", "Sinagoga", "Maimonide", "*Alcazar dei Re Cristiani", "Mulino della Albolafia", "Ponte Romano", "*Moschea-Cattedrale"]
     }
   },
   {
