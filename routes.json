@@ -50,6 +50,31 @@
     }
   },
   {
+    "id": "segovia",
+    "city": "Segovia",
+    "region": "Castilla y León",
+    "duration": "2.5h",
+    "languages": ["es", "en", "de", "fr", "pt", "it"],
+    "portada": "./portadas/segovia_principal.webp",
+    "mapa": "./mapas/segovia_principal.webp",
+    "description": {
+        "es": "Déjate fascinar por Segovia en un viaje a través de los siglos. Maravíllate ante su imponente Acueducto romano, un Alcázar de cuento y la elegancia de su Catedral en este recorrido inolvidable.",
+        "en": "Let yourself be captivated by Segovia on a journey through the centuries. Marvel at its imposing Roman Aqueduct, a fairytale Alcázar, and the elegance of its Cathedral on this unforgettable tour.",
+        "de": "Lass dich von Segovia auf einer Reise durch die Jahrhunderte faszinieren. Bestaune das imposante römische Aquädukt, einen märchenhaften Alcázar und die Eleganz der Kathedrale auf dieser unvergesslichen Tour.",
+        "fr": "Laissez-vous fasciner par Ségovie lors d'un voyage à travers les siècles. Émerveillez-vous devant son imposant Aqueduc romain, un Alcázar de conte de fées et l'élégance de sa Cathédrale lors de ce parcours inoubliable.",
+        "pt": "Deixe-se fascinar por Segóvia numa viagem através dos séculos. Maravilhe-se com o seu imponente Aqueduto romano, um Alcázar de conto de fadas e a elegância da sua Catedral neste percurso inesquecível.",
+        "it": "Lasciati affascinare da Segovia in un viaggio attraverso i secoli. Ammira il suo imponente Acquedotto romano, un Alcázar da favola e l'eleganza della sua Cattedrale in questo tour indimenticabile."
+    },
+    "stops": {
+        "es": ["Plaza del Azoguejo", "*Acueducto de Segovia", "Mirador de la Canaleja", "*Casa de los Picos", "La Alhóndiga", "*Plaza de Medina del Campo", "Estatua de Juan Bravo", "Iglesia de San Martín", "Antigua Sinagoga Mayor", "La Judería", "Plaza Mayor", "*Catedral de Santa María", "Puerta de San Andrés", "Barrio de las Canonjías", "Plaza de la Reina Victoria Eugenia", "*El Alcázar"],
+        "en": ["Plaza del Azoguejo", "*Aqueduct of Segovia", "Canaleja Viewpoint", "*Casa de los Picos", "La Alhóndiga", "*Plaza de Medina del Campo", "Statue of Juan Bravo", "Church of San Martín", "Old Main Synagogue", "The Jewish Quarter", "Plaza Mayor", "*Cathedral of Santa María", "Gate of San Andrés", "Canonjías Neighborhood", "Plaza de la Reina Victoria Eugenia", "*The Alcázar"],
+        "de": ["Plaza del Azoguejo", "*Aquädukt von Segovia", "Aussichtspunkt La Canaleja", "*Casa de los Picos", "La Alhóndiga", "*Plaza de Medina del Campo", "Statue von Juan Bravo", "Kirche San Martín", "Alte Große Synagoge", "Jüdisches Viertel", "Plaza Mayor", "*Kathedrale Santa María", "Tor von San Andrés", "Viertel Las Canonjías", "Plaza de la Reina Victoria Eugenia", "*Der Alcázar"],
+        "fr": ["Plaza del Azoguejo", "*Aqueduc de Ségovie", "Belvédère de la Canaleja", "*Casa de los Picos", "La Alhóndiga", "*Place de Medina del Campo", "Statue de Juan Bravo", "Église de San Martín", "Ancienne Grande Synagogue", "Le Quartier Juif", "Plaza Mayor", "*Cathédrale Santa María", "Porte de San Andrés", "Quartier des Canonjías", "Place de la Reine Victoire Eugénie", "*L'Alcázar"],
+        "it": ["Plaza del Azoguejo", "*Acquedotto di Segovia", "Belvedere della Canaleja", "*Casa de los Picos", "La Alhóndiga", "*Plaza de Medina del Campo", "Statua di Juan Bravo", "Chiesa di San Martín", "Antica Sinagoga Maggiore", "Il Quartiere Ebraico", "Plaza Mayor", "*Cattedrale di Santa Maria", "Porta di San Andrés", "Quartiere delle Canonjías", "Plaza de la Reina Victoria Eugenia", "*L'Alcázar"],
+        "pt": ["Plaza del Azoguejo", "*Aqueduto de Segóvia", "Miradouro da Canaleja", "*Casa de los Picos", "La Alhóndiga", "*Praça de Medina del Campo", "Estátua de Juan Bravo", "Igreja de San Martín", "Antiga Sinagoga Maior", "A Judiaria", "Plaza Mayor", "*Catedral de Santa Maria", "Porta de San Andrés", "Bairro das Canonjías", "Praça da Rainha Vitória Eugénia", "*O Alcázar"]
+        }
+  },
+  {
     "id": "sevilla",
     "city": "Sevilla",
     "region": "Andalucía",
