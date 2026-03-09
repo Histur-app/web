@@ -75,6 +75,31 @@
         }
   },
   {
+    "id": "avila",
+    "city": "Ávila",
+    "region": "Castilla y León",
+    "duration": "2.5h",
+    "languages": ["es", "en", "de", "fr", "pt", "it"],
+    "portada": "./portadas/avila_principal.webp",
+    "mapa": "./mapas/avila_principal.webp",
+    "description": {
+            "es": "Descubre Ávila, la ciudad amurallada más emblemática de España, donde cada rincón empedrado cuenta leyendas medievales y secretos de Santa Teresa. Recorre sus palacios, iglesias y plazas a través de la historia.",
+            "en": "Discover Ávila, Spain's most iconic walled city, where every cobblestone corner tells medieval legends and the secrets of Saint Teresa. Explore its palaces, churches, and squares through the lens of history.",
+            "de": "Entdecken Sie Ávila, die emblematischste ummauerte Stadt Spaniens, wo jede gepflasterte Ecke mittelalterliche Legenden und die Geheimnisse der Heiligen Teresa erzählt. Erkunden Sie ihre Paläste, Kirchen und Plätze durch die Geschichte hindurch.",
+            "fr": "Découvrez Ávila, la ville fortifiée la plus emblématique d'Espagne, où chaque recoin pavé raconte des légendes médiévales et les secrets de Sainte Thérèse. Parcourez ses palais, églises et places à travers l'histoire.",
+            "pt": "Descubra Ávila, a cidade muralhada mais emblemática da Espanha, onde cada recanto de paralelepípedos conta lendas medievais e os segredos de Santa Teresa. Percorra seus palácios, igrejas e praças através da história.",
+            "it": "Scopri Ávila, la città murata più emblematica della Spagna, dove ogni angolo acciottolato racconta leggende medievali e i segreti di Santa Teresa. Esplora i suoi palazzi, le chiese e le piazze attraverso la storia."
+        },
+    "stops": {
+      "es": ["Plaza del Mercado Grande", "*Puerta del Alcázar", "Catedral de Cristo Salvador", "Palacio de Velada", "*Basílica de San Vicente", "Puerta de San Vicente", "Palacio de los Verdugo", "*Plaza del Mercado Chico", "Espadaña del Carmen", "Palacio de Polentinos", "Torreón de los Guzmanes", "Palacio de los Dávila", "Paseo del Rastro", "*Basílica de Santa Teresa"],
+      "en": ["Plaza del Mercado Grande", "*Alcázar Gate", "Cathedral of Christ the Savior", "Velada Palace", "*Basilica of Saint Vincent", "San Vicente Gate", "Palace of the Executioners", "*Small Market Square", "Espadaña del Carmen", "Polentinos Palace", "Torreón de los Guzmanes", "Dávila Palace", "Paseo del Rastro", "Saint Teresa"],
+      "de": ["Plaza del Mercado Grande", "*Tor des Alcázar", "Kathedrale Christ des Erlösers", "Palacio de Velada", "Basilika San Vicente", "Puerta de San Vicente", "Palacio de los Verdugo", "Kleiner Marktplatz", "Espadaña del Carmen", "Palacio de Polentinos", "Torreón de los Guzmanes", "Palacio de los Dávila", "Paseo del Rastro", "*Basilica of Santa Teresa"],
+      "fr": ["Place du Mercado Grande", "*Porte de l'Alcázar", "Cathédrale du Christ-Sauveur", "Palais de Velada", "*Basilique Saint-Vincent", "Porte de San Vicente", "Palais des Verdugo", "*Place du Mercado Chico", "Clocher du Carmen", "Palais de Polentinos", "Tour des Guzmanes", "Palais des Dávila", "Paseo del Rastro", "*Basilique Sainte Thérèse"],
+      "it": ["Piazza del Mercado Grande", "*Porta dell'Alcázar", "Cattedrale di Cristo Salvatore", "Palazzo Velada", "*Basilica di San Vincenzo", "Porta di San Vicente", "Palazzo dei Verdugo", "*Piazza del Mercato Piccolo", "Espadaña del Carmen", "Palazzo dei Polentinos", "Torreón de los Guzmanes", "Palazzo dei Dávila", "Paseo del Rastro", "*Basilica di Santa Teresa"],
+      "pt": ["Praça do Mercado Grande", "*Porta do Alcázar", "Catedral de Cristo Salvador", "Palácio de Velada", "*Basílica de São Vicente", "Porta de San Vicente", "Palácio dos Verdugo", "*Praça do Mercado Chico", "Espadaña del Carmen", "Palácio de Polentinos", "Torreón de los Guzmanes", "Palácio dos Dávila", "Passeio do Rastro", "*Basílica de Santa Teresa"]
+        }
+  },
+  {
     "id": "sevilla",
     "city": "Sevilla",
     "region": "Andalucía",
