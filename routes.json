@@ -25,6 +25,31 @@
     }
   },
   {
+    "id": "alcala",
+    "city": "Alcalá de Henares",
+    "region": "Madrid",
+    "duration": "2.5h",
+    "languages": ["es", "en", "de", "fr", "pt", "it"],
+    "portada": "./portadas/alcala_principal.webp",
+    "mapa": "./mapas/alcala_principal.webp",
+    "description": {
+      "es": "Explora la ciudad de Cervantes y de la primera ciudad universitaria, la Complutense. Pasea por su Calle Mayor y déjate atrapar por sus terrazas disfrutando de una bebida acompañada de una tapa.",
+      "en": "Explore the city of Cervantes and the first university city, the Complutense. Stroll down its Calle Mayor and let yourself be captivated by its terraces while enjoying a drink accompanied by a tapa.",
+      "de": "Erkunde die Stadt von Cervantes und die erste Universitätsstadt, die Complutense. Schlendere die Calle Mayor entlang und lass dich von ihren Terrassen verzaubern, während du ein Getränk und eine Tapa genießt.",
+      "fr": "Explorez la ville de Cervantes et de la première ville universitaire, la Complutense. Promenez-vous dans sa Calle Mayor et laissez-vous séduire par ses terrasses en dégustant une boisson accompagnée d'une tapa.",
+      "it": "Esplora la città di Cervantes e della prima città universitaria, la Complutense. Passeggia per la sua Calle Mayor e lasciati conquistare dalle sue terrazze gustando una bevanda accompagnata da una tapa.",
+      "pt": "Explore a cidade de Cervantes e da primeira cidade universitária, a Complutense. Passeie pela sua Calle Mayor e deixe-se cativar pelas suas esplanadas desfrutando de uma bebida acompanhada de uma tapa."
+    },
+    "stops": {
+      "es": ["Plaza de Cervantes", "*Universidad", "Capilla del Oidor", "*Corral de Comedias", "*Calle Mayor", "*Catedral Magistral", "Palacio Arzobispal", "Convento carmelita de la Imagen", "Hospital de Antezana", "*Cervantes"],
+      "en": ["Plaza de Cervantes", "*University", "Chapel of the Oidor", "*Open-Air Theater", "*Calle Mayor", "*Magistral Cathedral", "Archbishop's Palace", "Carmelite Convent of La Imagen", "Antezana Hospital", "*Cervantes"],
+      "de": ["Plaza de Cervantes", "*Universität", "Kapelle des Oidor", "*Corral de Comedias", "*Calle Mayor", "*Magistralkathedrale", "Erzbischofspalast", "Karmeliterkloster „La Imagen“", "Krankenhaus von Antezana", "*Cervantes"],
+      "fr": ["Place Cervantes", "*Université", "Chapelle de l'Oidor", "*Corral de Comedias", "*Rue Mayor", "*Cathédrale Magistrale", "Palais archiépiscopal", "Couvent des Carmélites de la Imagen", "Hôpital d'Antezana", "*Cervantes"],
+      "it": ["Piazza Cervantes", "*Università", "Cappella dell'Oidor", "*Corral de Comedias", "*Calle Mayor", "*Cattedrale Magistrale", "Palazzo Arcivescovile", "Convento carmelitano della Imagen", "Ospedale di Antezana", "*Cervantes"],
+      "pt": ["Praça de Cervantes", "*Universidade", "Capela do Oidor", "*Corral de Comedias", "*Rua Mayor", "*Catedral Magistral", "Palácio Arcebispal", "Convento Carmelita da Imagem", "Hospital de Antezana", "*Cervantes"]
+        }
+  },
+  {
     "id": "toledo",
     "city": "Toledo",
     "region": "Castilla la Mancha",
