@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 500">
+  <rect width="750" height="500" fill="#c60b1e"/>
+  <rect y="125" width="750" height="250" fill="#ffc400"/>
+  <!-- Simplified Coat of Arms -->
+  <g transform="translate(250, 250) scale(0.75)">
+    <!-- Pillars -->
+    <rect x="-105" y="-90" width="15" height="135" fill="#e5e5e5" rx="3"/>
+    <rect x="90" y="-90" width="15" height="135" fill="#e5e5e5" rx="3"/>
+    <rect x="-115" y="45" width="35" height="10" fill="#d1d1d1"/>
+    <rect x="80" y="45" width="35" height="10" fill="#d1d1d1"/>
+    <path d="M-105-90 L-90-90 L-90 -75 L-105 -75 Z" fill="#ffc400"/>
+    <path d="M90-90 L105-90 L105 -75 L90 -75 Z" fill="#ffc400"/>
+    <!-- Ribbon on pillars -->
+    <path d="M-115 -15 H -85 V -5 H -115 Z" fill="#c60b1e"/>
+    <path d="M80 -15 H 110 V -5 H 80 Z" fill="#c60b1e"/>
+    <!-- Shield background -->
+    <path d="M-60 -90 H 60 V 0 C 60 50 0 90 0 90 C 0 90 -60 50 -60 0 Z" fill="#e5e5e5" stroke="#c60b1e" stroke-width="12"/>
+    <!-- Quarters -->
+    <!-- Q1 Castle (red bg) -->
+    <path d="M-54-84 H 0 V -5 H -54 Z" fill="#c60b1e"/>
+    <path d="M-37-60 H-17 V-25 H-37 Z M-37-25 H-17 V-15 H-37 Z" fill="#ffc400"/>
+    <path d="M-40-45 H-14 V-40 H-40 Z" fill="#ffc400"/>
+    <!-- Q2 Lion (white bg, purple lion) -->
+    <path d="M0-84 H 54 V -5 H 0 Z" fill="#ffffff"/>
+    <circle cx="27" cy="-45" r="18" fill="#9c27b0" opacity="0.8"/>
+    <!-- Q3 Stripes (yellow bg, red stripes) -->
+    <path d="M-54-5 H 0 V 80 C 0 80 -54 45 -54 -5 Z" fill="#ffc400"/>
+    <path d="M-42-5 V 47" stroke="#c60b1e" stroke-width="6"/>
+    <path d="M-30-5 V 60" stroke="#c60b1e" stroke-width="6"/>
+    <path d="M-18-5 V 70" stroke="#c60b1e" stroke-width="6"/>
+    <!-- Q4 Chain (red bg, gold chains) -->
+    <path d="M0-5 H 54 V 80 C 0 80 54 45 54 -5 Z" fill="#c60b1e"/>
+    <path d="M12 15 L 42 45 M 42 15 L 12 45 M 27 10 V 50 M 10 30 H 44" stroke="#ffc400" stroke-width="4"/>
+    <!-- Enté en point (Granada) -->
+    <path d="M-15 45 C-15 45 0 90 0 90 C 0 90 15 45 15 45 Z" fill="#ffffff" stroke="#c60b1e" stroke-width="4"/>
+    <circle cx="0" cy="65" r="5" fill="#c60b1e"/>
+    <!-- Inescutcheon (Anjou Bourbon) -->
+    <circle cx="0" cy="-5" r="16" fill="#0d47a1"/>
+    <circle cx="0" cy="-5" r="10" fill="#c60b1e"/>
+    <!-- Crown -->
+    <path d="M-70 -105 C -70 -105 -50 -140 0 -140 C 50 -140 70 -105 70 -105 Z" fill="#ffc400" stroke="#c60b1e" stroke-width="6"/>
+    <ellipse cx="0" cy="-105" rx="70" ry="12" fill="#d1d1d1"/>
+    <circle cx="0" cy="-140" r="10" fill="#ffc400"/>
+  </g>
+</svg>

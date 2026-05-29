@@ -46,17 +46,18 @@
                 <div class="relative group">
                     <button class="flex items-center gap-2 bg-slate-100 text-slate-700 border border-slate-200 px-3 py-2 rounded-full hover:bg-slate-200 transition text-sm">
                         <i data-lucide="globe" class="w-4 h-4"></i>
-                        <span id="current-lang-flag">🇪🇸</span>
+                        <img id="current-lang-flag" src="./images/flags/es.svg" alt="ES" class="w-5 h-3.5 object-cover rounded-sm">
                         <i data-lucide="chevron-down" class="w-4 h-4 text-slate-400"></i>
                     </button>
                     <div class="absolute right-0 mt-0 w-40 bg-transparent hidden group-hover:block z-50 pt-2">
                         <div class="bg-white rounded-lg shadow-xl border border-slate-100 py-1 overflow-hidden">
-                            <button onclick="changeLang('es')" class="w-full text-left px-4 py-2 text-sm hover:bg-slate-50 flex items-center gap-2"><span>🇪🇸</span> Español</button>
-                            <button onclick="changeLang('en')" class="w-full text-left px-4 py-2 text-sm hover:bg-slate-50 flex items-center gap-2"><span>🇬🇧</span> English</button>
-                            <button onclick="changeLang('de')" class="w-full text-left px-4 py-2 text-sm hover:bg-slate-50 flex items-center gap-2"><span>🇩🇪</span> Deutsch</button>
-                            <button onclick="changeLang('fr')" class="w-full text-left px-4 py-2 text-sm hover:bg-slate-50 flex items-center gap-2"><span>🇫🇷</span> Français</button>
-                            <button onclick="changeLang('pt')" class="w-full text-left px-4 py-2 text-sm hover:bg-slate-50 flex items-center gap-2"><span>🇵🇹</span> Português</button>
-                            <button onclick="changeLang('it')" class="w-full text-left px-4 py-2 text-sm hover:bg-slate-50 flex items-center gap-2"><span>🇮🇹</span> Italiano</button>
+                            <button onclick="changeLang('es')" class="w-full text-left px-4 py-2 text-sm hover:bg-slate-50 flex items-center gap-2"><img src="./images/flags/es.svg" class="w-5 h-3.5 object-cover rounded-sm" alt="ES"> Español</button>
+                            <button onclick="changeLang('ca')" class="w-full text-left px-4 py-2 text-sm hover:bg-slate-50 flex items-center gap-2"><img src="./images/flags/ca.svg" class="w-5 h-3.5 object-cover rounded-sm" alt="CA"> Català</button>
+                            <button onclick="changeLang('en')" class="w-full text-left px-4 py-2 text-sm hover:bg-slate-50 flex items-center gap-2"><img src="./images/flags/en.svg" class="w-5 h-3.5 object-cover rounded-sm" alt="EN"> English</button>
+                            <button onclick="changeLang('de')" class="w-full text-left px-4 py-2 text-sm hover:bg-slate-50 flex items-center gap-2"><img src="./images/flags/de.svg" class="w-5 h-3.5 object-cover rounded-sm" alt="DE"> Deutsch</button>
+                            <button onclick="changeLang('fr')" class="w-full text-left px-4 py-2 text-sm hover:bg-slate-50 flex items-center gap-2"><img src="./images/flags/fr.svg" class="w-5 h-3.5 object-cover rounded-sm" alt="FR"> Français</button>
+                            <button onclick="changeLang('pt')" class="w-full text-left px-4 py-2 text-sm hover:bg-slate-50 flex items-center gap-2"><img src="./images/flags/pt.svg" class="w-5 h-3.5 object-cover rounded-sm" alt="PT"> Português</button>
+                            <button onclick="changeLang('it')" class="w-full text-left px-4 py-2 text-sm hover:bg-slate-50 flex items-center gap-2"><img src="./images/flags/it.svg" class="w-5 h-3.5 object-cover rounded-sm" alt="IT"> Italiano</button>
                         </div>
                     </div>
                 </div>
@@ -92,7 +93,15 @@
     </footer>
 
     <script>
-        const flags = { es: '🇪🇸', en: '🇬🇧', de: '🇩🇪', fr: '🇫🇷', pt: '🇵🇹', it: '🇮🇹' };
+        const flags = {
+            es: './images/flags/es.svg',
+            ca: './images/flags/ca.svg',
+            en: './images/flags/en.svg',
+            de: './images/flags/de.svg',
+            fr: './images/flags/fr.svg',
+            pt: './images/flags/pt.svg',
+            it: './images/flags/it.svg'
+        };
         
         const content = {
             es: {
@@ -111,6 +120,23 @@
                 footerPrivacy: "Privacidad",
                 footerContact: "Contacto",
                 footerText: "© 2026 Histur. Todos los derechos reservados."
+            },
+            ca: {
+                navCta: "Descarregar App",
+                title: "Política de Privacitat",
+                updated: "Última actualització: 2025",
+                intro: "Gràcies per utilitzar la nostra aplicació. La seva privacitat és molt important per a nosaltres. Aquesta Política de Privacitat explica com tractem les seves dades quan utilitza la nostra aplicació.",
+                sections: [
+                    { t: "1. Informació que recopilem", c: "La nostra aplicació no recopila informació d'identificació personal com el seu nom, adreça, correu electrònic o número de telèfon.<br><br>No obstant això, podem recopilar informació no personal, com:<br><ul class='list-disc pl-5 mt-2 space-y-1'><li>Estadístiques d'ús anònimes per millorar el rendiment de l'aplicació.</li><li>Informació tècnica sobre el seu dispositiu (model, sistema operatiu, etc.).</li><li>Dades de diagnòstic en cas d'errors (informes de fallades).</li></ul><br>Aquestes dades s'utilitzen únicament per millorar la funcionalitat i l'experiència d'usuari de l'aplicació." },
+                    { t: "2. Permisos", c: "L'aplicació pot sol·licitar permisos com l'accés a l'emmagatzematge o a la ubicació, però aquests només s'utilitzen per proporcionar funcions principals (per exemple, ajudar-lo a ubicar-se al mapa o desar contingut sense connexió), i mai s'utilitzen per recopilar dades personals." },
+                    { t: "3. Contingut de tercers", c: "La nostra aplicació pot incloure enllaços o contingut incrustat de serveis externs (com mapes, àudio o imatges). Aquests serveis poden tenir les seves pròpies polítiques de privacitat." },
+                    { t: "4. Seguretat", c: "Ens comprometem a protegir qualsevol dada no personal recopilada. No compartim ni venem cap dada a tercers." },
+                    { t: "5. Canvis en aquesta política", c: "Ens reservem el dret d'actualitzar aquesta política en qualsevol moment. Si es realitzen canvis significatius, notificarem els usuaris dins de l'aplicació o a través d'altres mitjans apropiats." },
+                    { t: "6. Contacte", c: "Si té alguna pregunta sobre aquesta política, contacti amb nosaltres a: histur.app@gmail.com" }
+                ],
+                footerPrivacy: "Privacitat",
+                footerContact: "Contacte",
+                footerText: "© 2026 Histur. Tots els drets reservats."
             },
             en: {
                 navCta: "Download App",
@@ -205,7 +231,8 @@
             
             // Navbar
             document.getElementById('nav-cta').innerText = t.navCta;
-            document.getElementById('current-lang-flag').innerText = flags[lang];
+            document.getElementById('current-lang-flag').src = flags[lang];
+            document.getElementById('current-lang-flag').alt = lang.toUpperCase();
 
             // Policy Content
             document.getElementById('policy-title').innerText = t.title;

@@ -93,17 +93,18 @@
                 <div class="relative group">
                     <button class="flex items-center gap-2 bg-slate-100 text-slate-700 border border-slate-200 px-3 py-2 rounded-full hover:bg-slate-200 transition text-sm">
                         <i data-lucide="globe" class="w-4 h-4"></i>
-                        <span id="current-lang-flag">🇪🇸</span>
+                        <img id="current-lang-flag" src="./images/flags/es.svg" alt="ES" class="w-5 h-3.5 object-cover rounded-sm">
                         <i data-lucide="chevron-down" class="w-4 h-4 text-slate-400"></i>
                     </button>
                     <div class="absolute right-0 mt-0 w-40 bg-transparent hidden group-hover:block z-50 pt-2">
                         <div class="bg-white rounded-lg shadow-xl border border-slate-100 py-1 overflow-hidden">
-                            <button onclick="changeLang('es')" class="w-full text-left px-4 py-2 text-sm hover:bg-slate-50 flex items-center gap-2"><span>🇪🇸</span> Español</button>
-                            <button onclick="changeLang('en')" class="w-full text-left px-4 py-2 text-sm hover:bg-slate-50 flex items-center gap-2"><span>🇬🇧</span> English</button>
-                            <button onclick="changeLang('de')" class="w-full text-left px-4 py-2 text-sm hover:bg-slate-50 flex items-center gap-2"><span>🇩🇪</span> Deutsch</button>
-                            <button onclick="changeLang('fr')" class="w-full text-left px-4 py-2 text-sm hover:bg-slate-50 flex items-center gap-2"><span>🇫🇷</span> Français</button>
-                            <button onclick="changeLang('pt')" class="w-full text-left px-4 py-2 text-sm hover:bg-slate-50 flex items-center gap-2"><span>🇵🇹</span> Português</button>
-                            <button onclick="changeLang('it')" class="w-full text-left px-4 py-2 text-sm hover:bg-slate-50 flex items-center gap-2"><span>🇮🇹</span> Italiano</button>
+                            <button onclick="changeLang('es')" class="w-full text-left px-4 py-2 text-sm hover:bg-slate-50 flex items-center gap-2"><img src="./images/flags/es.svg" class="w-5 h-3.5 object-cover rounded-sm" alt="ES"> Español</button>
+                            <button onclick="changeLang('ca')" class="w-full text-left px-4 py-2 text-sm hover:bg-slate-50 flex items-center gap-2"><img src="./images/flags/ca.svg" class="w-5 h-3.5 object-cover rounded-sm" alt="CA"> Català</button>
+                            <button onclick="changeLang('en')" class="w-full text-left px-4 py-2 text-sm hover:bg-slate-50 flex items-center gap-2"><img src="./images/flags/en.svg" class="w-5 h-3.5 object-cover rounded-sm" alt="EN"> English</button>
+                            <button onclick="changeLang('de')" class="w-full text-left px-4 py-2 text-sm hover:bg-slate-50 flex items-center gap-2"><img src="./images/flags/de.svg" class="w-5 h-3.5 object-cover rounded-sm" alt="DE"> Deutsch</button>
+                            <button onclick="changeLang('fr')" class="w-full text-left px-4 py-2 text-sm hover:bg-slate-50 flex items-center gap-2"><img src="./images/flags/fr.svg" class="w-5 h-3.5 object-cover rounded-sm" alt="FR"> Français</button>
+                            <button onclick="changeLang('pt')" class="w-full text-left px-4 py-2 text-sm hover:bg-slate-50 flex items-center gap-2"><img src="./images/flags/pt.svg" class="w-5 h-3.5 object-cover rounded-sm" alt="PT"> Português</button>
+                            <button onclick="changeLang('it')" class="w-full text-left px-4 py-2 text-sm hover:bg-slate-50 flex items-center gap-2"><img src="./images/flags/it.svg" class="w-5 h-3.5 object-cover rounded-sm" alt="IT"> Italiano</button>
                         </div>
                     </div>
                 </div>
@@ -408,6 +409,40 @@
                 btnClose: "Close",
                 genericDesc: "Explore the most iconic corners of the city with our premium audio guide. An immersive experience to learn history at your own pace."
             },
+            ca: {
+                navCta: "Descarregar App",
+                heroTitle: "La història de la ciutat et parla",
+                heroSubtitle: "El teu guia turístic personal a la butxaca. Rutes immersives, àudios detallats i mapes històrics sense necessitat de connexió.",
+                heroCtaRoutes: "Veure Rutes",
+                heroCtaDownload: "Descarregar App",
+                featTitle: "Per què triar Histur?",
+                feat1T: "Rutes GPS Precises",
+                feat1D: "Navega punt a punt sense perdre't. La teva posició en temps real sobre el mapa.",
+                feat2T: "Audioguies Premium",
+                feat2D: "Narracions professionals que t'expliquen la història i anècdotes de cada racó.",
+                feat3T: "Mapes Històrics",
+                feat3D: "Viatja al passat visualitzant mapes antics superposats sobre la ciutat real.",
+                feat4T: "Sense Dades Mòbils",
+                feat4D: "Descarrega la ruta i utilitza-la offline. Ideal per a viatgers internacionals.",
+                routesTitle: "Les Nostres Rutes Disponibles",
+                routesSubtitle: "Explora Espanya ciutat a ciutat.",
+                stopsLabel: "Parades destacades:",
+                seeMore: "Veure totes",
+                seeLess: "Veure menys",
+                dlTitle: "Comença el teu viatge avui",
+                dlSubtitle: "Disponible per a iOS i Android. Escaneja el codi QR per descarregar.",
+                footerPrivacy: "Privacitat",
+                footerContact: "Contacte",
+                footerText: "© 2026 Histur. Tots els drets reservats.",
+                loadMore: "Carregar més rutes",
+                searchPlaceholder: "Cercar ciutat...",
+                viewFullRoute: "Veure detalls de la ruta",
+                touristRoute: "Ruta Turística",
+                itinerary: "Itinerari Complet",
+                mapTitle: "Mapa de la Ruta",
+                btnClose: "Tancar",
+                genericDesc: "Explora els racons més emblemàtics de la ciutat amb la nostra audioguia premium. Una experiència immersiva per conèixer la història al teu propi ritme."
+            },
             de: {
                  navCta: "App laden", heroTitle: "Die Geschichte der Stadt spricht zu Ihnen", heroSubtitle: "Ihr persönlicher Reiseführer.", heroCtaRoutes: "Routen ansehen", heroCtaDownload: "App herunterladen",
                  featTitle: "Warum Histur?", feat1T: "Präzise GPS-Routen", feat1D: "Navigieren Sie Punkt für Punkt.", feat2T: "Premium-Audioguides", feat2D: "Professionelle Erzählungen.", feat3T: "Historische Karten", feat3D: "Reisen Sie in die Vergangenheit.", feat4T: "Kein Roaming", feat4D: "Offline nutzen.",
@@ -438,10 +473,18 @@
             }
         };
 
-        const flags = { es: '🇪🇸', en: '🇬🇧', de: '🇩🇪', fr: '🇫🇷', pt: '🇵🇹', it: '🇮🇹' };
+        const flags = {
+            es: './images/flags/es.svg',
+            ca: './images/flags/ca.svg',
+            en: './images/flags/en.svg',
+            de: './images/flags/de.svg',
+            fr: './images/flags/fr.svg',
+            pt: './images/flags/pt.svg',
+            it: './images/flags/it.svg'
+        };
 
         let currentLang = 'es';
-        let visibleRoutes = 8;
+        let visibleRoutes = 10;
         let currentFilter = 'all';
         let searchTerm = '';
 
@@ -547,7 +590,8 @@
             document.getElementById('modal-map-title').innerHTML = `<i data-lucide="map" class="w-4 h-4"></i> ${t.mapTitle}`;
             document.querySelector('#route-modal button:last-child').innerText = t.btnClose;
 
-            document.getElementById('current-lang-flag').innerText = flags[lang];
+            document.getElementById('current-lang-flag').src = flags[lang];
+            document.getElementById('current-lang-flag').alt = lang.toUpperCase();
 
             if(allRoutesData.length > 0) renderRoutes();
         }
@@ -586,7 +630,7 @@
             
             // Languages
             const availableLangs = route.languages || ["es", "en", "de", "fr", "pt", "it"];
-            document.getElementById('modal-languages').innerHTML = availableLangs.map(l => `<span title="${l.toUpperCase()}">${flags[l]}</span>`).join('');
+            document.getElementById('modal-languages').innerHTML = availableLangs.map(l => `<img src="${flags[l]}" class="w-5 h-3.5 object-cover rounded-sm" title="${l.toUpperCase()}" alt="${l.toUpperCase()}">`).join('');
             
             // Description
             const desc = (route.description && route.description[currentLang])
@@ -665,7 +709,7 @@
                 
                 // Languages
                 const availableLangs = route.languages || ["es", "en", "de", "fr", "pt", "it"];
-                const langFlags = availableLangs.map(l => `<span class="grayscale-[0.3] hover:grayscale-0 transition cursor-help" title="${l.toUpperCase()}">${flags[l]}</span>`).join(' ');
+                const langFlags = availableLangs.map(l => `<img class="w-5 h-3.5 object-cover rounded-sm grayscale-[0.3] hover:grayscale-0 transition cursor-help" src="${flags[l]}" title="${l.toUpperCase()}" alt="${l.toUpperCase()}">`).join(' ');
 
                 card.innerHTML = `
                     <div class="relative h-44 overflow-hidden">

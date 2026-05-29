@@ -25,6 +25,33 @@
     }
   },
   {
+    "id": "barcelona",
+    "city": "Barcelona",
+    "region": "Cataluña",
+    "duration": "3h",
+    "languages": ["es", "ca", "en", "de", "fr", "pt", "it"],
+    "portada": "./portadas/barcelona_principal.webp",
+    "mapa": "./mapas/barcelona_principal.webp",
+    "description": {
+      "es": "Descubre la Barcelona de Gaudí y embárcate en un viaje fascinante a través del tiempo, donde la energía de Las Ramblas se funde con los secretos milenarios del Barrio Gótico y el alma marinera del Born.",
+      "ca": "Descobreix la Barcelona de Gaudí i embarca't en un viatge fascinant a través del temps, on l'energia de les Rambles es fon amb els secrets mil·lenaris del Barri Gòtic i l'ànima marinera del Born.",
+      "en": "Discover Gaudí's Barcelona and embark on a fascinating journey through time, where the energy of Las Ramblas merges with the millennial secrets of the Gothic Quarter and the maritime soul of El Born.",
+      "de": "Entdecke das Barcelona von Gaudí und begib dich auf eine faszinierende Reise durch die Zeit, bei der die Energie der Ramblas mit den jahrtausendealten Geheimnissen des Gotischen Viertels und der maritimen Seele des Born verschmilzt.",
+      "fr": "Découvrez la Barcelone de Gaudí et embarquez pour un voyage fascinant à travers le temps, où l'énergie des Ramblas se mêle aux secrets millénaires du Quartier Gothique et à l'âme maritime du Born.",
+      "pt": "Descubra a Barcelona de Gaudí e embarque em uma viagem fascinante através do tempo, onde a energia de Las Ramblas se funde com os segredos milenares do Bairro Gótico e a alma marítima de El Born.",
+      "it": "Scopri la Barcellona di Gaudí e imbarcati in un viaggio affascinante attraverso il tempo, dove l'energia de Las Ramblas si fonde con i segreti millenari del Quartiere Gotico e l'anima marinara del Born."
+    },
+    "stops": {
+      "es": ["Plaça de Catalunya", "*La Rambla", "La Boquería", "Plaça Reial", "Sinagoga Mayor", "Plaça Sant Felip Neri", "Plaça Nova", "*Catedral", "*Pont del Bisbe", "*Plaça de Sant Jaume", "Temple d'August", "Plaça del Rei", "*Santa Maria del Mar"],
+      "en": ["Plaça de Catalunya", "*La Rambla", "La Boqueria", "Plaça Reial", "Great Synagogue", "Plaça Sant Felip Neri", "Plaça Nova", "*Cathedral", "*Pont del Bisbe", "*Plaça de Sant Jaume", "Temple d'August", "Plaça del Rei", "*Santa Maria del Mar"],
+      "de": ["Plaça de Catalunya", "*La Rambla", "La Boqueria", "Plaça Reial", "Große Synagoge", "Plaça Sant Felip Neri", "Plaça Nova", "*Kathedrale", "*Pont del Bisbe", "*Plaça de Sant Jaume", "Temple d'August", "Plaça del Rei", "*Santa Maria del Mar"],
+      "fr": ["Plaça de Catalunya", "*La Rambla", "La Boqueria", "Plaça Reial", "Grande synagogue", "Place Sant Felip Neri", "Plaça Nova", "*Cathédrale", "*Pont del Bisbe", "*Place Saint-Jacques", "Temple d'August", "Plaça del Rei", "*Santa Maria del Mar"],
+      "it": ["Plaça de Catalunya", "*La Rambla", "La Boqueria", "Plaça Reial", "Sinagoga Maggiore", "Piazza Sant Felip Neri", "Plaça Nova", "*Cattedrale", "*Pont del Bisbe", "*Piazza Sant Jaume", "Tempio di Augusto", "Plaça del Rei", "*Santa Maria del Mar"],
+      "pt": ["Praça da Catalunha", "*La Rambla", "La Boqueria", "Praça Real", "Sinagoga Maior", "Praça de Sant Felip Neri", "Praça Nova", "*Catedral", "*Ponte do Bispo", "*Praça de Sant Jaume", "Templo de Augusto", "Praça do Rei", "*Santa Maria del Mar"],
+      "ca": ["Plaça de Catalunya", "*La Rambla", "La Boqueria", "Plaça Reial", "Gran Sinagoga", "Plaça Sant Felip Neri", "Plaça Nova", "*Catedral", "*Pont del Bisbe", "*Plaça de Sant Jaume", "Temple d'August", "Plaça del Rei", "*Santa Maria del Mar"]
+    }
+  },
+  {
     "id": "alcala",
     "city": "Alcalá de Henares",
     "region": "Madrid",
